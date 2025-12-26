@@ -1,0 +1,24 @@
+# Meetup Toolkit Configuration
+#
+# This file contains settings for syncing events from Partiful to LessWrong.
+# Customize these values for your group or location.
+
+[event]
+# Location name displayed on LessWrong events
+location_name = "Paris, The Gradient (near Gare de Lyon)"
+
+# Geographic coordinates for the event location
+# Format: decimal degrees (WGS84)
+latitude = 48.8449
+longitude = 2.3765
+
+[lesswrong]
+# LessWrong group ID to associate events with
+# Find your group ID in the group's URL: https://www.lesswrong.com/groups/GROUP_ID
+group_id = "jMknTw7saZGTq5qhG"
+
+# Contact information displayed on events (e.g., Signal, email)
+contact_info = "@aelerinya.49"
+
+# Event types/tags (usually ["LW"] for LessWrong events)
+types = ["LW"]

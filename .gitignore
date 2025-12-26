@@ -137,6 +137,9 @@ celerybeat.pid
 # Environments
 .env
 .envrc
+
+# LessWrong schema introspection (contains API structure)
+lesswrong_schema.json
 .venv
 env/
 venv/
